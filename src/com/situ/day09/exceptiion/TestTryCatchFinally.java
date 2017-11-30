@@ -13,6 +13,7 @@ public class TestTryCatchFinally {
 			// TODO: handle exception
 			return "catch";
 		} finally {
+
 			return "finally";
 		}
 	}
@@ -20,6 +21,13 @@ public class TestTryCatchFinally {
 	@Test
 	public void testTry() {
 		System.out.println(tryCatchFinally());
+
+	}
+
+	public void say() {
+	}
+
+	public void hi() {
 	}
 
 }
